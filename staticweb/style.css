@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+    overflow-y: hidden;
+    background-color: #f5f5f5;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo-icon, .logo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28pt;
+    text-align: center;
+}
+
+.flex-table {
+    display: table;
+}
+
+.flex-table-item {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.flex-table-item-primary {
+    width: 99%;
+}
+
+.container {
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+}
+
+
+.btn {
+position: relative;
+display: inline-block;
+padding: 6px 12px;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+color: #333;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+}
+
+.input-block {
+    display: block;
+    width: 100%;
+}
+
+.form-control, .form-select {
+    min-height: 34px;
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+}
+
+.form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
+    border-color: #51a7e8;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075),0 0 5px rgba(81,167,232,0.5);
+}

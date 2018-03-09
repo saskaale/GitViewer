@@ -1,0 +1,15 @@
+running=1
+
+finish()
+{
+    running=0
+}
+
+trap finish SIGINT
+
+while (( running )); do
+    /var/www/fcgiservers/gitviewer/gitviewer.js
+    # Execute the command here that starts your server.
+    echo "Restarting server on crash.."
+    sleep 5
+done
